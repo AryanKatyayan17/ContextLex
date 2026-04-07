@@ -5,10 +5,9 @@ ContextLex is a specialized Retrieval-Augmented Generation (RAG) system designed
 The "Smart Chunking" Logic
 Standard chunking often breaks sentences in half or loses the "topic" of a paragraph. ContextLex solves this by:
 
-Header-Aware Splitting: Respecting the logical flow of the book's Table of Contents.
+      1. Header-Aware Splitting: Respecting the logical flow of the book's Table of Contents.
 
-Overlapping Windows: Maintaining a 10-15% overlap between chunks to ensure continuity.
+      2. Overlapping Windows: Maintaining a 10-15% overlap between chunks to ensure continuity.
 
-Metadata Injection: Prepended to each chunk:
-
-[Source: Chapter 4, Section 2.1 | Topic: Machine Learning Foundations]
+      3. Metadata Injection: Prepended to each chunk:
+         [Source: Chapter 4, Section 2.1 | Topic: Machine Learning Foundations]
