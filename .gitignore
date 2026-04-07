@@ -2,4 +2,3 @@ sc
 vectorstore
 prompts.py
 .env
-__init__.py
